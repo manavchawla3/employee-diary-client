@@ -1,0 +1,9 @@
+{
+  "extends": ["react-app", "plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "jsx-a11y/anchor-is-valid": "off",
+    "jsx-a11y/accessible-emoji": "off",
+    "comma-dangle": ["error", "never"]
+  }
+}
